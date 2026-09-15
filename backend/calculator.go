@@ -39,7 +39,6 @@ func SquareRoot(a float64) (float64, error) {
 	return math.Sqrt(a), nil
 }
 
-// Percentage returns "a percent of b's base", i.e. (a / b) * 100
 func Percentage(a, b float64) (float64, error) {
 	if b == 0 {
 		return 0, ErrZeroBase
