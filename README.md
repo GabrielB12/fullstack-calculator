@@ -44,3 +44,11 @@ Endpoints: /api/add, /api/subtract, /api/multiply, /api/divide,
 - Errors from the backend (division by zero, negative sqrt, zero-base percentage)
   are returned as 400 with a JSON error message, surfaced directly in the UI.
 - Vitest + React Testing Library chosen for frontend tests (fast, native ESM support with Vite).
+
+## AI Usage
+
+AI tools were used as a development assistant for architecture brainstorming, edge-case identification, unit test suggestions and documentation improvements.
+
+Example prompt:
+
+> I am building a full-stack calculator application using React with TypeScript for the frontend and Go for the backend. Help me structure the project in a clean, simple, and maintainable way, including the folder organization, separation of responsibilities, API layer, and testing structure.
